@@ -10,9 +10,9 @@ body{
 }
 body main{
   width: 300px;
-  height: 300px;
+  min-height: 300px;
   margin: 0 auto;
-  border: 1px solid red;
+  border: 1px solid black;
 }
 body main h1{
   display: flex;
@@ -33,10 +33,10 @@ button,input{
 .todo-content{
   padding: 4px 8px;
 }
-.todo-list{
+.todo-list-ul{
   padding: 10px;
 }
-.todo-list li{
+.todo-list-ul li{
   border: 1px solid #333;
   padding: 8px 0;
   margin-bottom: 4px;
@@ -46,20 +46,20 @@ button,input{
   align-items: center;
 }
 
-.todo-list li span{
+.todo-list-ul li span{
 }
 
-.todo-list li .buttons{
+.todo-list-ul li .buttons{
 
 }
-
-.todo-list li .buttons button{
+.todo-list-ul li .buttons button{
   border: 1px solid #333333;
   padding: 4px 6px;
+  margin-right: 4px;
   background: whitesmoke;
   border-radius: 6px;
 }
-.todo-list li .buttons button:active{
+.todo-list-ul li .buttons button:active{
   background: rgba(255,255,255,.5);
 }
 
