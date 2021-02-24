@@ -1,0 +1,67 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+body main{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+body main h1{
+  display: flex;
+  justify-content: center;
+}
+body main form label{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+ul{
+  list-style: none;
+}
+button,input{
+  outline: none;
+}
+
+.todo-content{
+  padding: 4px 8px;
+}
+.todo-list{
+  padding: 10px;
+}
+.todo-list li{
+  border: 1px solid #333;
+  padding: 8px 0;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list li span{
+}
+
+.todo-list li .buttons{
+
+}
+
+.todo-list li .buttons button{
+  border: 1px solid #333333;
+  padding: 4px 6px;
+  background: whitesmoke;
+  border-radius: 6px;
+}
+.todo-list li .buttons button:active{
+  background: rgba(255,255,255,.5);
+}
+
+
+

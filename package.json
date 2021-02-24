@@ -1,0 +1,14 @@
+{
+  "name": "todoList",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-minify"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^3.5.1",
+    "parcel": "^1.12.4"
+  }
+}

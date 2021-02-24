@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=content">
+  <link rel="stylesheet" href="./style.css">
+  <title>McCall's ToDoList</title>
+</head>
+<body>
+<main>
+  <h1>今日清单</h1>
+  <form>
+    <label>
+      <input class="todo-content" type="text" value="e.g: 吃饭">
+      <input type="submit" class="todo-submit">
+    </label>
+  </form>
+  <ul class="todo-list">
+    <li>
+      <span> 学习数据结构 </span>
+      <div class="buttons">
+        <button>已完成</button>
+        <button>删除</button>
+      </div>
+    </li>
+    <li>
+      <span> 复习 jQuery </span>
+      <div class="buttons">
+        <button class="doneBtn">已完成</button>
+        <button class="deleteBtn">删除</button>
+      </div>
+    </li>
+  </ul>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
